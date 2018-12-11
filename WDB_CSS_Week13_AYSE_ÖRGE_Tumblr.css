@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid orangered;
+    background: #36465D;
+}
+.container{
+    display: grid;
+    grid-template-rows: 54px 35px auto;
+}
+br{
+    color: grey;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+}
+.head-right{
+    display: flex;
+    justify-content: flex-start;
+}
+.head-left{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.6);
+    text-decoration: none;
+    height: 36px;
+    
+}
+.body{
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+    position: relative;
+    width: 1580px;
+    height: 4546.51px;
+
+}
